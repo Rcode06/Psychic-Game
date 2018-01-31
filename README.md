@@ -6,7 +6,7 @@
 
 
 
-![Screenshot](public/assets/img/psychic-game.jpg)
+![Screenshot](assets/images/psychic-game.jpg)
 
 ## Author
 
