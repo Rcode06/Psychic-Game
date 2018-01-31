@@ -2,7 +2,7 @@
 
 ##Overview
 
-*Psychic-Game is a game where the computer chooses a letter and the user gets 9 tries to guess it.
+*Psychic-Game is a game where the computer chooses a letter and the user gets 11 tries to guess it.
 
 
 
