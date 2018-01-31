@@ -14,13 +14,13 @@ var letters = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","
     var losses = 0;
   document.onkeyup = function(event) {
     alert("working!!");
-        // Lowercase the letter
-      var letter = String.fromCharCode(event.keyCode).toLowerCase();
+     // Lowercase the letter
+  var letter = String.fromCharCode(event.keyCode).toLowerCase();
 
-      // We'll check if there's a match.
+  // We'll check if there's a match.
       if (letter === letterToGuess) {
 
-        // If there is then we win and we'll update the HTML to display the win.
+  // If there is then we win and we'll update the HTML to display the win.
         wins++;
 
 
