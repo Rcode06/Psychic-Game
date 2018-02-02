@@ -12,16 +12,19 @@ var letters = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","
     // This is the counter for wins/losses
     var wins = 0;
     var losses = 0;
-  document.onkeyup = function(event) {
+
+    document.onkeyup = function(event) {
     alert("working!!");
      // Lowercase the letter
-  var letter = String.fromCharCode(event.keyCode).toLowerCase();
+    var letter = String.fromCharCode(event.keyCode).toLowerCase();
 
   // We'll check if there's a match.
-      if (letter === letterToGuess) {
+    if (letter === letterToGuess) {
 
   // If there is then we win and we'll update the HTML to display the win.
         wins++;
+      }
+    }
 
 
-        //user has to make choices of letters//
+       
